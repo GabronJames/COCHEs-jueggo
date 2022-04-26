@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.sound.min.js"></script>
+    <script src="./p5.play.js"></script>
+    <script src="js/form.js"></script>
+    <script src="js/game.js"></script>
+    <script src="js/player.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
+
+    <script>
+    const firebaseConfig = {
+      apiKey: "AIzaSyAjnm_dd09WzAXk0fdiJsovaN8z30VjBtQ",
+  authDomain: "juego-de-coches-e1b78.firebaseapp.com",
+  databaseURL: "https://juego-de-coches-e1b78-default-rtdb.firebaseio.com/",
+  projectId: "juego-de-coches-e1b78",
+  storageBucket: "juego-de-coches-e1b78.appspot.com",
+  messagingSenderId: "236963546744",
+  appId: "1:236963546744:web:64f141409f616881b08f8d"
+};
+
+      firebase.initializeApp(firebaseConfig);
+    </script>
+  </head>
+  <body>
+      <script src="sketch.js"></script>
+  </body>
+</html>
